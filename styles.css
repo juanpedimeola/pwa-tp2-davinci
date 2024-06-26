@@ -1,0 +1,83 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.marquee {
+    border: 10px solid #fff;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #222;
+    box-shadow: 0 0 20px #f8f8f8;
+}
+
+.marquee-content {
+    border: 5px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #222;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #f8f8f8;
+}
+
+.input-group {
+    max-width: 600px;
+    margin: auto;
+}
+
+button {
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+button:hover {
+    background-color: #c9302c;
+    border-color: #c12e2a;
+}
+
+#results img {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px 0;
+}
+
+#historial img {
+    width: 100%;
+    max-width: 150px;
+    margin: 10px 0;
+}
+
+.favorite-item {
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #f8f8f8;
+}
+
+.favorite-item button {
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+.favorite-item button:hover {
+    background-color: #c9302c;
+    border-color: #c12e2a;
+}
+
+.favorite-item img {
+    max-width: 150px; 
+    height: auto;
+    width: 150px; 
+    display: block;
+    margin: 0 auto; 
+}
